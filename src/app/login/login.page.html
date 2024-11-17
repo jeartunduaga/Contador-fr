@@ -1,0 +1,34 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <div class="login-container">
+    <h1>Bienvenido</h1>
+    
+    <ion-item class="input-item">
+      <ion-label position="floating">Nombre De Usuario O Correo Electrónico</ion-label>
+      <ion-input type="email" placeholder="ejemplo@ejemplo.com"></ion-input>
+    </ion-item>
+
+    <ion-item class="input-item">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input type="password" placeholder="********"></ion-input>
+      <ion-icon name="eye-outline" slot="end"></ion-icon> <!-- Icono de ojo -->
+    </ion-item>
+
+    <ion-button expand="full" routerLink="/tabs" class="btn-login">Acceder</ion-button>
+    
+    <a class="forgot-password" href="#">¿Olvidó su Contraseña?</a>
+
+    <ion-button expand="full" fill="outline" routerLink="/register" class="btn-register">Registrarse</ion-button>
+
+    <p class="bio-auth-text">Utilice La Huella Digital Para Acceder</p>
+
+    <div class="social-login">
+      <ion-icon name="logo-facebook" size="large"></ion-icon>
+      <ion-icon name="logo-google" size="large"></ion-icon>
+    </div>
+
+    <a class="signup-link" href="#">¿No tienes una cuenta? Inscríbete</a>
+  </div>
+</ion-content>

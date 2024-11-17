@@ -1,0 +1,53 @@
+ion-content {
+    --background: #E9FBF4; /* Color de fondo similar al mockup */
+  }
+  
+  .access-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  ion-img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00AF82; /* Color verde del nombre */
+    margin: 0;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0 30px 0;
+    max-width: 250px;
+  }
+  
+  .btn-login {
+    --background: #00AF82; /* Color verde del botón */
+    --border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .btn-register {
+    --background: #E0F8ED; /* Color más claro del segundo botón */
+    --color: #666; /* Texto del botón más claro */
+    --border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password {
+    font-size: 0.8em;
+    color: #666;
+    text-decoration: none;
+  }
+  

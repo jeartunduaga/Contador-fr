@@ -1,0 +1,81 @@
+ion-content {
+    --background: #E9FBF4; /* Fondo claro */
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00AF82; /* Color verde */
+    margin-bottom: 30px;
+  }
+  
+  .input-item {
+    width: 100%;
+    max-width: 350px;
+    --background: #E0F8ED; /* Fondo claro para inputs */
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ion-input {
+    padding-left: 10px;
+    --placeholder-color: #b3b3b3; /* Placeholder color */
+  }
+  
+  .btn-login {
+    --background: #00AF82; /* Color verde para el botón de Acceder */
+    --border-radius: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .forgot-password {
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .btn-register {
+    --background: #E0F8ED;
+    --color: #666;
+    --border-radius: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .bio-auth-text {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .social-login {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  ion-icon {
+    color: #666;
+  }
+  
+  .signup-link {
+    font-size: 0.9em;
+    color: #666;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  

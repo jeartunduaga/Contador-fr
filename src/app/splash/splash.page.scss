@@ -1,0 +1,22 @@
+ion-content {
+    --background: #ffffff; /* Establece el color de fondo a blanco */
+  } 
+.splash-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  ion-img {
+    width: 150px; /* Puedes ajustar el tamaño de la imagen */
+    height: 150px;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #000; /* Cambia el color según prefieras */
+  }
+  

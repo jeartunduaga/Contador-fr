@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-title>Hola, Bienvenido De Nuevo</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon class="notifications-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="welcome-section">
+    <h2>Buen día Nombre</h2>
+    <div class="balance-info">
+      <div class="balance">
+        <p>Saldo Total</p>
+        <h3 class="positive">$7,783.00</h3>
+      </div>
+      <div class="balance">
+        <p>Gasto Total</p>
+        <h3 class="negative">-$1,187.40</h3>
+      </div>
+    </div>
+
+    <div class="progress-bar-container">
+      <div class="progress-wrapper">
+        <div class="progress-text">30%</div>
+        <ion-progress-bar value="0.3"></ion-progress-bar>
+        <div class="target-amount">$20,000.00</div>
+      </div>
+    </div>
+    <p class="summary-text">El 30% De Tus Gastos, Se Ve Bien.</p>
+  </div>
+
+  <div class="info-card">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <div class="info-box">
+            <ion-icon name="car-outline"></ion-icon>
+            <p>Ahorro</p>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div class="info-box">
+            <p>Ingresos semana pasada</p>
+            <h4>$4,000.00</h4>
+          </div>
+          <div class="info-box">
+            <p>Gastos semana pasada</p>
+            <h4 class="negative">-$100.00</h4>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <ion-segment value="monthly">
+    <ion-segment-button value="daily">
+      A diario
+    </ion-segment-button>
+    <ion-segment-button value="weekly">
+      Semanalmente
+    </ion-segment-button>
+    <ion-segment-button value="monthly">
+      Mensual
+    </ion-segment-button>
+  </ion-segment>
+
+  <ion-list>
+    <ion-item>
+      <ion-icon name="cash-outline" slot="start"></ion-icon>
+      <ion-label>
+        <h2>Salario</h2>
+        <p>18:27 - 30 De Abril</p>
+      </ion-label>
+      <ion-note slot="end" color="success">$4,000.00</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="basket-outline" slot="start"></ion-icon>
+      <ion-label>
+        <h2>Comestibles</h2>
+        <p>17:00 - 24 De Abril</p>
+      </ion-label>
+      <ion-note slot="end" color="danger">-$100.00</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="home-outline" slot="start"></ion-icon>
+      <ion-label>
+        <h2>Alquilar</h2>
+        <p>8:30 - 15 De Abril</p>
+      </ion-label>
+      <ion-note slot="end" color="danger">-$674.40</ion-note>
+    </ion-item>
+  </ion-list>
+</ion-content>
+  

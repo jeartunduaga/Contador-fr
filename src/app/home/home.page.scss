@@ -1,0 +1,125 @@
+ion-content {
+    --background: #00AF82; /* Fondo claro */
+  }
+  
+  ion-toolbar {
+    --background: #00AF82; /* Color verde para la barra de herramientas */
+    color: white;
+  }
+  ion-title {
+    color: black;
+  }
+
+  ion-icon {
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .welcome-section h2{
+    color: black;
+  }
+  
+  .balance-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .balance-info p {
+    color: black;
+  }
+  
+  .balance h3 {
+    margin-top: 5px;
+  }
+  
+  .positive {
+    color: white;
+  }
+  
+  .negative {
+    color: #0068ff; /* Color rojo para valores negativos */
+  }
+
+
+  .progress-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .progress-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: 30px; /* Definir el grosor de la barra */
+  }
+  
+  ion-progress-bar {
+    --progress-height: 30px; /* Definir el grosor de la barra */
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    --background: #E0F8ED; /* Color de fondo del progreso */
+    --progress-background: black;
+  }
+  
+  .progress-text {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+  
+  .target-amount {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4D4D4D;
+    font-weight: bold;
+    font-size: 0.9em;
+  }
+
+  
+  .summary-text {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .info-card {
+    background: #E0F8ED;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    color: black;
+  }
+  
+  .info-box {
+    text-align: center;
+  }
+  
+  ion-segment {
+    margin: 20px;
+  }
+  
+  ion-list {
+    background-color: #00AF82;
+  }
+
+  ion-item {
+    --border-radius: 20px;
+    margin: 10px;
+    background: #00AF82;
+  }
+  

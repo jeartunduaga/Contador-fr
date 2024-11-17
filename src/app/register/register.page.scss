@@ -1,0 +1,54 @@
+ion-content {
+    --background: #E9FBF4; /* Fondo claro */
+  }
+  
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00AF82; /* Color verde */
+    margin-bottom: 30px;
+  }
+  
+  .input-item {
+    width: 100%;
+    max-width: 350px;
+    --background: #E0F8ED; /* Fondo claro para inputs */
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  
+  ion-input {
+    padding-left: 10px;
+    --placeholder-color: #b3b3b3; /* Placeholder color */
+  }
+  
+  .btn-register {
+    --background: #00AF82; /* Color verde para el botón de Inscribirse */
+    --border-radius: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .terms-text {
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .signin-link {
+    font-size: 0.9em;
+    color: #666;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
